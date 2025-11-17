@@ -3,6 +3,14 @@ name = "localdb"
 version = "0.1.0"
 edition = "2021"
 authors = ["Cortlet"]
+license = "Apache-2.0"
+description = "A lightweight JSON-backed SQL-like local database engine for Rust."
+readme = "README.md"
+repository = "https://github.com/Cortlet/localdb"
+homepage = "https://crates.io/crates/localdb"
+keywords = ["database", "local", "json", "sql"]
+categories = ["database", "data-structures"]
+
 [lib]
 name = "localdb"
 path = "src/lib.rs"
